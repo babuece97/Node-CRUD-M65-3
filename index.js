@@ -18,7 +18,7 @@ async function run() {
     const userCollection = client.db("foodexpro").collection("user");
     const user = {
       name: "Kpopy",
-      email: "Kpopy@gmail.com",
+      email: "Keya@gmail.com",
     }
     const result = await userCollection.insertOne(user);
     
